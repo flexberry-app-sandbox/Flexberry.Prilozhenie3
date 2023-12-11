@@ -1,0 +1,31 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "РасходДенег",
+      "projection": "РасходДенегL",
+      "detailModelName": null
+    },
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "ПриходДенег",
+      "projection": "ПриходДенегL",
+      "detailModelName": null
+    }
+  ],
+  "external": false,
+  "caption": "Регистр оборот",
+  "name": "IISPrilozhenieРегистрОборотE",
+  "className": "РегистрОборотE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-prilozhenie-регистр-оборот",
+      "modelProjection": "РегистрОборотE"
+    }
+  ]
+}

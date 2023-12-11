@@ -1,0 +1,110 @@
+﻿{
+  "applicationCaption": "Prilozhenie",
+  "applicationTitle": "Prilozhenie",
+  "items": [
+    {
+      "link": null,
+      "menuName": "документы",
+      "caption": "Документы",
+      "title": "Документы",
+      "children": [
+        {
+          "link": "i-i-s-prilozhenie-расход-денег-l",
+          "menuName": null,
+          "caption": "Расход денег",
+          "title": "Расход денег",
+          "children": null
+        },
+        {
+          "link": "i-i-s-prilozhenie-приход-денег-l",
+          "menuName": null,
+          "caption": "Приход денег",
+          "title": "Приход денег",
+          "children": null
+        }
+      ]
+    },
+    {
+      "link": null,
+      "menuName": "контрагенты",
+      "caption": "Контрагенты",
+      "title": "Контрагенты",
+      "children": [
+        {
+          "link": "i-i-s-prilozhenie-поставщики-l",
+          "menuName": null,
+          "caption": "Поставщики",
+          "title": "Поставщики",
+          "children": null
+        },
+        {
+          "link": "i-i-s-prilozhenie-клиенты-l",
+          "menuName": null,
+          "caption": "Клиенты",
+          "title": "Клиенты",
+          "children": null
+        }
+      ]
+    },
+    {
+      "link": null,
+      "menuName": "сотрудники",
+      "caption": "Сотрудники",
+      "title": "Сотрудники",
+      "children": [
+        {
+          "link": "i-i-s-prilozhenie-финансисты-l",
+          "menuName": null,
+          "caption": "Финансисты",
+          "title": "Финансисты",
+          "children": null
+        }
+      ]
+    },
+    {
+      "link": null,
+      "menuName": "номенклатура",
+      "caption": "Номенклатура",
+      "title": "Номенклатура",
+      "children": [
+        {
+          "link": "i-i-s-prilozhenie-товары-l",
+          "menuName": null,
+          "caption": "Товары",
+          "title": "Товары",
+          "children": null
+        },
+        {
+          "link": "i-i-s-prilozhenie-материалы-l",
+          "menuName": null,
+          "caption": "Материалы",
+          "title": "Материалы",
+          "children": null
+        },
+        {
+          "link": "i-i-s-prilozhenie-услуги-l",
+          "menuName": null,
+          "caption": "Услуги",
+          "title": "Услуги",
+          "children": null
+        }
+      ]
+    },
+    {
+      "link": null,
+      "menuName": "регистры",
+      "caption": "Регистры",
+      "title": "Регистры",
+      "children": [
+        {
+          "link": "i-i-s-prilozhenie-регистр-оборот-l",
+          "menuName": null,
+          "caption": "Регистр оборотов",
+          "title": "Регистр оборот",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

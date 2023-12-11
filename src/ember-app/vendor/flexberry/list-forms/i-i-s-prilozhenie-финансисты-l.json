@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-prilozhenie-финансисты-e",
+  "editForm": "i-i-s-prilozhenie-финансисты-e",
+  "external": false,
+  "caption": "Финансисты",
+  "name": "IISPrilozhenieФинансистыL",
+  "className": "ФинансистыL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-prilozhenie-финансисты",
+      "modelProjection": "ФинансистыL"
+    }
+  ]
+}

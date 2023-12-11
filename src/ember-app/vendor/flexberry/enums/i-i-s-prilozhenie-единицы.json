@@ -1,0 +1,9 @@
+﻿{
+  "nameSpace": "IIS.Prilozhenie",
+  "className": "Единицы",
+  "enumObjects": {
+    "Шт": "Шт",
+    "Гр": "Гр",
+    "Кг": "Кг"
+  }
+}

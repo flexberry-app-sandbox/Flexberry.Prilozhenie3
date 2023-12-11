@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-prilozhenie-клиенты-e",
+  "editForm": "i-i-s-prilozhenie-клиенты-e",
+  "external": false,
+  "caption": "Клиенты",
+  "name": "IISPrilozhenieКлиентыL",
+  "className": "КлиентыL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-prilozhenie-клиенты",
+      "modelProjection": "КлиентыL"
+    }
+  ]
+}

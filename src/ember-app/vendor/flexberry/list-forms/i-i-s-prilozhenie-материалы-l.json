@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-prilozhenie-материалы-e",
+  "editForm": "i-i-s-prilozhenie-материалы-e",
+  "external": false,
+  "caption": "Материалы",
+  "name": "IISPrilozhenieМатериалыL",
+  "className": "МатериалыL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-prilozhenie-материалы",
+      "modelProjection": "МатериалыL"
+    }
+  ]
+}

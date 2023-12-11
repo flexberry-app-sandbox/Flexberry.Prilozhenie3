@@ -1,0 +1,23 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": "материалы",
+      "displayAttributeName": "наименование",
+      "required": true,
+      "relationName": "СоставТовара.Материалы",
+      "projection": "МатериалыL",
+      "detailModelName": "i-i-s-prilozhenie-состав-товара"
+    }
+  ],
+  "external": false,
+  "caption": "Товары",
+  "name": "IISPrilozhenieТоварыE",
+  "className": "ТоварыE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-prilozhenie-товары",
+      "modelProjection": "ТоварыE"
+    }
+  ]
+}

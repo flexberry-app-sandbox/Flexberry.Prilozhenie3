@@ -1,0 +1,92 @@
+﻿{
+  "name": "IISPrilozhenieСоставТовара",
+  "modelName": "i-i-s-prilozhenie-состав-товара",
+  "className": "СоставТовара",
+  "nameSpace": "IIS.Prilozhenie",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "единицы",
+      "type": "i-i-s-prilozhenie-единицы",
+      "flexberryType": "Единицы",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "количество",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "материалы",
+      "relatedTo": "i-i-s-prilozhenie-материалы",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "товары",
+      "relatedTo": "i-i-s-prilozhenie-товары",
+      "inverse": "составТовара"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "СоставТовараE",
+      "modelName": "i-i-s-prilozhenie-состав-товара",
+      "attrs": [
+        {
+          "name": "количество",
+          "caption": "Количество",
+          "hidden": false,
+          "index": 2
+        },
+        {
+          "name": "единицы",
+          "caption": "Единицы",
+          "hidden": false,
+          "index": 3
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "Наименование",
+          "lookupValueField": "наименование",
+          "relationName": "Материалы",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "наименование",
+              "caption": "Наименование",
+              "hidden": true,
+              "index": 1
+            }
+          ],
+          "index": 0,
+          "type": "standard",
+          "caption": "Материалы",
+          "name": "материалы",
+          "relatedTo": "i-i-s-prilozhenie-материалы",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}
